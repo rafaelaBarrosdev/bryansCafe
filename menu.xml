@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meals>
+        <meal>
+            <name>Beetroot and Feta Salad</name>
+            <price>15.00</price>
+            <description>Suitable for vegetarians, made with fresh beetroot</description>
+            <image>Beetroot-salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Sourdough Rye Sandwich</name>
+            <price>18.00</price>
+            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+            <image>Sourdough Rye Sandwich.jpg</image>
+        </meal>
+        <meal>
+            <name>Spinach Pie and Salad</name>
+            <price>20.00</price>
+            <description>Tasty pie with salad</description>
+            <image>Spinach Pie and Salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Feta Pancakes with Salad</name>
+            <price>19.50</price>
+            <description>Tasty pancake filled with feta and salad</description>
+            <image>Feta Pancakes with Salad.jpg</image>
+        </meal>
+    </meals>
+    <beverages>
+        <beverage>
+            <name>Small Coffee</name>
+            <price>3.50</price>
+            <description>For coffee, please inform the staff of the coffee type</description>
+            <image>coffeeMilk.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Regular Coffee</name>
+            <price>4.00</price>
+            <description>For coffee, please inform the staff of the coffee type</description>
+            <image>coffeeMilk.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Large Coffee</name>
+            <price>4.50</price>
+            <description>For coffee, please inform the staff of the coffee type</description>
+            <image>coffeeMilk.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Soda</name>
+            <price>3.00</price>
+            <description>Refreshing soda drinks</description>
+            <image>coke.webp</image>
+        </beverage>
+        <beverage>
+            <name>Fresh Juice</name>
+            <price>6.00</price>
+            <description>Freshly squeezed juices</description>
+            <image>orange-juice.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Bottled Water</name>
+            <price>2.00</price>
+            <description>Bottled water for hydration</description>
+            <image>water.jpg</image>
+        </beverage>
+    </beverages>
+</menu>

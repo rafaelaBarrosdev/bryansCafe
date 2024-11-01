@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #555;
+}
+
+/* Enquiry Form Styling */
+/* Style for the Enquiry Form Container */
+.enquiry-form {
+    width: 50%; /* Form width */
+    margin: 0 auto; /* Center the form */
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.enquiry-form h3 {
+    font-size: 2rem;
+    color: #a0522d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.enquiry-form .form-group {
+    margin-bottom: 20px;
+}
+
+.enquiry-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.enquiry-form input[type="email"],
+.enquiry-form input[type="text"],
+.enquiry-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.enquiry-form button {
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.enquiry-form button:hover {
+    background-color: #804020;
+}
+
+/* Confirmation message styling */
+#confirmationMessage {
+    font-size: 1rem;
+    color: #28a745; /* Green color for success */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .enquiry-form {
+        width: 90%;
+    }
+}
+
+/* Branches Styling */
+#branchesList {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-flex;
+    justify-content: center; /* Centers the cards horizontally */
+    flex-wrap: wrap; /* Allows wrapping of cards when the screen size is smaller */
+    gap: 20px; /* Adds some space between the cards */
+}
+
+.branch-item {
+    flex: 0 1 30%; /* Each branch takes up 30% of the container */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.branch-item h4 {
+    font-size: 1.5rem;
+    color: #a0522d; /* Match the color to the cafe's theme */
+}
+
+.branch-item p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.branch-item a {
+    color: #a0522d;
+    text-decoration: none;
+}
+
+.branch-item a:hover {
+    text-decoration: underline;
+}
+
+/* Media query to ensure responsiveness */
+@media (max-width: 768px) {
+    .branch-item {
+        flex: 1 1 100%; /* On smaller screens, branches will stack vertically */
+    }
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    color: #666;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-description, .footer-links, .footer-contact {
+    width: 30%;
+}
+
+.footer-description p {
+    margin-bottom: 20px;
+}
+
+.footer-description img {
+    max-width: 150px;
+}
+
+.footer-links h3, .footer-contact h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    color: #333;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-social a:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #333;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
