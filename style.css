@@ -18,8 +18,7 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    width: 30%;
 }
 
 .nav-links {
@@ -395,3 +394,167 @@ blockquote cite span {
     margin: 0;
 }
 
+/* Responsive Menu for Mobile */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #fff;
+        padding: 10px 0;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+
+    .nav-links li {
+        text-align: left;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+        padding: 10px;
+        display: block;
+        color: #333;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar.expanded .nav-links {
+        display: flex;
+    }
+
+    .logo img {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text h2,
+    .history-text h2,
+    .contact-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav-links li a {
+        font-size: 0.8rem;
+    }
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+    .history-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .history-text {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .history-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .history-text h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
+    .history {
+        padding: 20px;
+    }
+
+    .history-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .history-text p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info p,
+    .contact-form form label,
+    .contact-form form input,
+    .contact-form form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form form .btn-submit {
+        font-size: 0.9rem;
+    }
+}

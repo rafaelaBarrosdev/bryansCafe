@@ -47,6 +47,24 @@
             <image>coffeeMilk.jpg</image>
         </beverage>
         <beverage>
+            <name>Small Hot Chocolate</name>
+            <price>3.50</price>
+            <description>For hot chocolate, please inform the staff of the coffee type</description>
+            <image>hotChocolate.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Regular Hot Chocolate</name>
+            <price>4.00</price>
+            <description>For hot chocolate, please inform the staff of the coffee type</description>
+            <image>hotChocolate.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Large Hot Chocolate</name>
+            <price>4.50</price>
+            <description>For hot chocolate, please inform the staff of the coffee type</description>
+            <image>hotChocolate.jpg</image>
+        </beverage>
+        <beverage>
             <name>Soda</name>
             <price>3.00</price>
             <description>Refreshing soda drinks</description>
