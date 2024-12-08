@@ -41,13 +41,11 @@
             </div>
         </div>
     </section>
-
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-description">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-
             <div class="footer-links">
                 <h3>Links</h3>
                 <ul>
@@ -72,9 +70,13 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2021 Bryan’s Café</p>
+            <p>&copy; <span id="currentYear"></span> Bryan’s Café</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 
     <script src="menu.js"></script>
 </body>
